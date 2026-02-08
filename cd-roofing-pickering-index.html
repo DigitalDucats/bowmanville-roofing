@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pickering's most trusted roofing company. C.D. Roofing & Construction Ltd. provides expert shingle roof replacement, flat roofing, repairs & installations with unparalleled after-care. Fewest callbacks in Durham Region. 10-year warranty. Call (905) 430-7911.">
+    <meta name="keywords" content="Pickering roofers, roof replacement Pickering, shingle roofing Pickering, flat roof repair Pickering, roofing contractors Pickering, emergency roof repair, Durham Region roofing">
+    <meta name="geo.region" content="CA-ON">
+    <meta name="geo.placename" content="Pickering">
+    <meta name="geo.position" content="43.8384;-79.0868">
+    <title>Expert Roofing in Pickering | Roof Replacement & Repair - C.D. Roofing & Construction Ltd.</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pickering's Premier Roofing Experts - C.D. Roofing & Construction Ltd.">
+    <meta property="og:description" content="Quality installations with fewest callbacks in Durham Region. 10-year warranty on all work. Residential & commercial roofing specialists.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-yellow: #FFC107;
+            --bright-yellow: #FFD54F;
+            --dark-yellow: #FFA000;
+            --black: #000000;
+            --dark-gray: #1a1a1a;
+            --medium-gray: #424242;
+            --light-gray: #F5F5F5;
+            --white: #ffffff;
+            --success-green: #27AE60;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-gray);
+            overflow-x: hidden;
+        }
+        
+        /* Header & Navigation */
+        .top-bar {
+            background: var(--black);
+            color: var(--primary-yellow);
+            padding: 10px 0;
+            font-size: 14px;
+        }
+        
+        .top-bar-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .top-bar a {
+            color: var(--primary-yellow);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--black);
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: var(--dark-gray);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary-yellow);
+        }
+        
+        .cta-button {
+            background: var(--primary-yellow);
+            color: var(--black);
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+            display: inline-block;
+        }
+        
+        .cta-button:hover {
+            background: var(--bright-yellow);
+        }
+        
+        .cta-button-secondary {
+            background: var(--black);
+            color: var(--primary-yellow);
+        }
+        
+        .cta-button-secondary:hover {
+            background: var(--dark-gray);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(26, 26, 26, 0.95)), 
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23424242" width="1200" height="600"/></svg>');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .hero-subtitle {
+            font-size: 22px;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        
+        .hero-usp {
+            font-size: 18px;
+            margin-bottom: 35px;
+            opacity: 0.95;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .hero-buttons .cta-button {
+            font-size: 18px;
+            padding: 15px 40px;
+        }
+        
+        /* Trust Bar */
+        .trust-bar {
+            background: var(--light-gray);
+            padding: 30px 20px;
+            border-bottom: 3px solid var(--primary-yellow);
+        }
+        
+        .trust-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+        
+        .trust-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .trust-icon {
+            font-size: 40px;
+            color: var(--primary-yellow);
+            margin-bottom: 10px;
+        }
+        
+        .trust-title {
+            font-weight: 700;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        
+        .trust-description {
+            font-size: 14px;
+            color: var(--medium-gray);
+        }
+        
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        section {
+            padding: 80px 20px;
+        }
+        
+        .section-title {
+            font-size: 38px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 15px;
+            color: var(--dark-gray);
+        }
+        
+        .section-subtitle {
+            font-size: 18px;
+            text-align: center;
+            color: var(--medium-gray);
+            max-width: 700px;
+            margin: 0 auto 50px;
+        }
+        
+        /* USP Section */
+        .usp-section {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        
+        .usp-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .usp-card {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .usp-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .usp-card-icon {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        
+        .usp-card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: var(--black);
+        }
+        
+        .usp-card p {
+            color: var(--medium-gray);
+            line-height: 1.8;
+        }
+        
+        /* Services Section */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .service-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        
+        .service-card:hover {
+            border-color: var(--primary-yellow);
+            box-shadow: 0 10px 30px rgba(255, 193, 7, 0.15);
+        }
+        
+        .service-image {
+            width: 100%;
+            height: 250px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 80px;
+            color: white;
+        }
+        
+        .service-content {
+            padding: 30px;
+        }
+        
+        .service-badge {
+            background: var(--black);
+            color: var(--primary-yellow);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        
+        .service-card h3 {
+            font-size: 26px;
+            margin-bottom: 15px;
+            color: var(--dark-gray);
+        }
+        
+        .service-card ul {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .service-card li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: var(--medium-gray);
+        }
+        
+        .service-card li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--success-green);
+            font-weight: bold;
+        }
+        
+        .learn-more {
+            color: var(--black);
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-top: 15px;
+        }
+        
+        .learn-more:hover {
+            gap: 10px;
+        }
+        
+        /* Shingle Brands */
+        .brands-section {
+            background: white;
+            padding: 60px 20px;
+        }
+        
+        .brands-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 40px auto 0;
+            align-items: center;
+        }
+        
+        .brand-logo {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            filter: grayscale(100%);
+            opacity: 0.6;
+            transition: all 0.3s;
+            font-weight: 700;
+            font-size: 18px;
+            color: var(--medium-gray);
+        }
+        
+        .brand-logo:hover {
+            filter: grayscale(0%);
+            opacity: 1;
+        }
+        
+        /* Why Choose Section */
+        .why-choose {
+            background: var(--black);
+            color: white;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .feature-item {
+            text-align: center;
+        }
+        
+        .feature-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+            color: var(--primary-yellow);
+        }
+        
+        .feature-item h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        
+        .feature-item p {
+            color: rgba(255,255,255,0.8);
+            line-height: 1.8;
+        }
+        
+        /* Referral Program */
+        .referral-section {
+            background: linear-gradient(135deg, var(--black), var(--dark-yellow));
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        
+        .referral-content h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        
+        .referral-content p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        
+        /* Testimonials */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .testimonial-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            border-left: 4px solid var(--primary-yellow);
+        }
+        
+        .stars {
+            color: #ffc107;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            color: var(--medium-gray);
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--dark-gray);
+        }
+        
+        .testimonial-location {
+            color: var(--medium-gray);
+            font-size: 14px;
+        }
+        
+        /* Service Areas */
+        .service-areas {
+            background: var(--light-gray);
+        }
+        
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 15px;
+            margin-top: 40px;
+        }
+        
+        .area-item {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .area-item:hover {
+            background: var(--black);
+            color: var(--primary-yellow);
+            transform: translateY(-2px);
+        }
+        
+        /* Contact CTA */
+        .contact-cta {
+            background: var(--black);
+            color: white;
+            text-align: center;
+        }
+        
+        .contact-options {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .contact-method {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .contact-icon {
+            font-size: 50px;
+            color: var(--primary-yellow);
+        }
+        
+        .contact-method h3 {
+            font-size: 20px;
+        }
+        
+        .contact-method a {
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        
+        .contact-method a:hover {
+            color: var(--primary-yellow);
+        }
+        
+        /* Footer */
+        footer {
+            background: #1a252f;
+            color: white;
+            padding: 60px 20px 20px;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-section h3 {
+            margin-bottom: 20px;
+            color: var(--primary-yellow);
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            display: block;
+            padding: 5px 0;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: white;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: rgba(255,255,255,0.5);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 32px;
+            }
+            
+            .hero-subtitle {
+                font-size: 18px;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+            
+            .services-grid,
+            .usp-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Schema Markup Styling */
+        .schema-hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body itemscope itemtype="https://schema.org/RoofingContractor">
+    
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-content">
+            <div>📍 Proudly Serving Pickering & Durham Region Since 1999</div>
+            <div><a href="tel:9054307911">📞 CALL NOW: (905) 430-7911</a></div>
+        </div>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo" itemprop="name">C.D. ROOFING & CONSTRUCTION</div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose">Why Choose Us</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="tel:9054307911" class="cta-button">Get Free Estimate</a>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 itemprop="description">Pickering's Most Trusted Roofing Experts</h1>
+            <p class="hero-subtitle">Professional Roof Replacement, Repair & Installation Services</p>
+            <p class="hero-usp">
+                <strong>⭐ Fewest Customer Service Calls in Durham Region</strong><br>
+                Our installations are so reliable, callbacks are rare. When you do need us, we're there with unparalleled after-care support.
+            </p>
+            <div class="hero-buttons">
+                <a href="tel:9054307911" class="cta-button">Call (905) 430-7911</a>
+                <a href="#services" class="cta-button cta-button-secondary">View Our Services</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Trust Bar -->
+    <div class="trust-bar">
+        <div class="trust-content">
+            <div class="trust-item">
+                <div class="trust-icon">🛡️</div>
+                <div class="trust-title">10-Year Warranty</div>
+                <div class="trust-description">On all workmanship</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">🇨🇦</div>
+                <div class="trust-title">Canadian Products</div>
+                <div class="trust-description">Supporting local suppliers</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">⚡</div>
+                <div class="trust-title">Fast Response</div>
+                <div class="trust-description">Emergency services available</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">💰</div>
+                <div class="trust-title">Financing Available</div>
+                <div class="trust-description">Flexible payment options</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- USP Section -->
+    <section class="usp-section">
+        <div class="container">
+            <h2 class="section-title">Why C.D. Roofing Has the Fewest Callbacks</h2>
+            <p class="section-subtitle">Our commitment to quality means you can trust your roof from day one—and for decades to come.</p>
+            
+            <div class="usp-grid">
+                <div class="usp-card">
+                    <div class="usp-card-icon">🎯</div>
+                    <h3>Superior Installation Quality</h3>
+                    <p>Every roof is installed to manufacturer specifications and beyond. Our meticulous attention to detail during installation eliminates the common issues that lead to callbacks. From proper ventilation to precision nailing patterns, we get it right the first time.</p>
+                </div>
+                
+                <div class="usp-card">
+                    <div class="usp-card-icon">🔧</div>
+                    <h3>Unparalleled After-Care</h3>
+                    <p>On the rare occasion you need us, our after-care is legendary. We respond promptly, communicate clearly, and treat every callback with the same urgency and professionalism as a new installation. Your satisfaction doesn't end when we finish the job.</p>
+                </div>
+                
+                <div class="usp-card">
+                    <div class="usp-card-icon">👷</div>
+                    <h3>Expert, Certified Team</h3>
+                    <p>Our roofers aren't just experienced—they're craftsmen who take pride in their work. Ongoing training, strict quality standards, and a culture of excellence mean every member of our team delivers work that lasts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Comprehensive Roofing Services in Pickering</h2>
+            <p class="section-subtitle">From residential shingle roofs to commercial flat roofing, we deliver excellence across every project type.</p>
+            
+            <div class="services-grid">
+                <!-- Shingle Roofing - #1 Priority -->
+                <div class="service-card">
+                    <div class="service-image">🏠</div>
+                    <div class="service-content">
+                        <span class="service-badge">MOST POPULAR</span>
+                        <h3>Residential Shingle Roofing</h3>
+                        <p>Trust Pickering's shingle roofing specialists for installations that stand the test of time. We work with premium Canadian and American brands to deliver the perfect roof for your home.</p>
+                        <ul>
+                            <li>Architectural shingles</li>
+                            <li>Designer shingles</li>
+                            <li>3-tab shingles</li>
+                            <li>Impact-resistant options</li>
+                            <li>Energy-efficient choices</li>
+                            <li>10-year workmanship warranty</li>
+                            <li>Manufacturer warranties included</li>
+                        </ul>
+                        <p><strong>Featured:</strong> BP shingles with dual sealant strip—Canada's most wind-resistant shingle with the lowest blown-off rate in the industry.</p>
+                        <a href="tel:9054307911" class="learn-more">Get Free Estimate →</a>
+                    </div>
+                </div>
+                
+                <!-- Flat Roofing - #2 Priority -->
+                <div class="service-card">
+                    <div class="service-image">🏢</div>
+                    <div class="service-content">
+                        <span class="service-badge">COMMERCIAL & RESIDENTIAL</span>
+                        <h3>Flat Roof Installation & Repair</h3>
+                        <p>Specialized flat roofing solutions for homes and businesses. We install and repair all flat roof systems with precision and expertise.</p>
+                        <ul>
+                            <li>BUR (Built-Up Roof) systems</li>
+                            <li>Modified Bitumen</li>
+                            <li>EPDM rubber membrane</li>
+                            <li>TPO roofing</li>
+                            <li>PVC membrane systems</li>
+                            <li>Emergency flat roof repair</li>
+                            <li>Commercial roof maintenance</li>
+                        </ul>
+                        <p><strong>Expert Service:</strong> Hundreds of successful flat roof installations across Durham Region.</p>
+                        <a href="tel:9054307911" class="learn-more">Request Quote →</a>
+                    </div>
+                </div>
+                
+                <!-- Metal Roofing -->
+                <div class="service-card">
+                    <div class="service-image">⚙️</div>
+                    <div class="service-content">
+                        <h3>Standing Seam Metal Roofing</h3>
+                        <p>The ultimate in durability and performance. Metal roofing provides 40-50 years of maintenance-free protection while adding significant resale value to your property.</p>
+                        <ul>
+                            <li>40-50 year lifespan</li>
+                            <li>Fire-safe & lightweight</li>
+                            <li>Water-resistant protection</li>
+                            <li>Energy-efficient</li>
+                            <li>Extreme weather resistant</li>
+                            <li>Full manufacturer warranty</li>
+                        </ul>
+                        <a href="tel:9054307911" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+                
+                <!-- Roof Repair -->
+                <div class="service-card">
+                    <div class="service-image">🔨</div>
+                    <div class="service-content">
+                        <h3>Expert Roof Repair Services</h3>
+                        <p>From minor leaks to storm damage, our repair specialists diagnose and fix roofing issues quickly and effectively.</p>
+                        <ul>
+                            <li>Leak detection & repair</li>
+                            <li>Shingle replacement</li>
+                            <li>Flashing repairs</li>
+                            <li>Storm damage repair</li>
+                            <li>Emergency services available</li>
+                            <li>All roof types</li>
+                        </ul>
+                        <a href="tel:9054307911" class="learn-more">Get Help Now →</a>
+                    </div>
+                </div>
+                
+                <!-- Skylights -->
+                <div class="service-card">
+                    <div class="service-image">☀️</div>
+                    <div class="service-content">
+                        <h3>Skylight Installation & Repair</h3>
+                        <p>Certified Gold Standard skylight installers. Bring natural light into your home with expert installation or repair existing skylights to prevent leaks.</p>
+                        <ul>
+                            <li>New skylight installation</li>
+                            <li>Skylight replacement</li>
+                            <li>Leak repair</li>
+                            <li>Custom designs available</li>
+                            <li>Energy-efficient options</li>
+                        </ul>
+                        <a href="tel:9054307911" class="learn-more">Explore Options →</a>
+                    </div>
+                </div>
+                
+                <!-- Additional Services -->
+                <div class="service-card">
+                    <div class="service-image">🛠️</div>
+                    <div class="service-content">
+                        <h3>Complete Exterior Services</h3>
+                        <p>Your trusted partner for all exterior home improvements beyond roofing.</p>
+                        <ul>
+                            <li>Siding installation & repair</li>
+                            <li>Eavestrough (gutter) systems</li>
+                            <li>Soffit & fascia</li>
+                            <li>Ventilation solutions</li>
+                            <li>Winter roofing services</li>
+                        </ul>
+                        <a href="tel:9054307911" class="learn-more">View All Services →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Shingle Brands -->
+    <section class="brands-section">
+        <div class="container">
+            <h2 class="section-title">We Work With Industry-Leading Brands</h2>
+            <p class="section-subtitle">Choose from the top shingle manufacturers in North America</p>
+            <div class="brands-grid">
+                <div class="brand-logo">BP (Building Products)</div>
+                <div class="brand-logo">GAF</div>
+                <div class="brand-logo">CertainTeed</div>
+                <div class="brand-logo">Owens Corning</div>
+                <div class="brand-logo">IKO</div>
+                <div class="brand-logo">Malarkey</div>
+            </div>
+            <p style="text-align: center; margin-top: 30px; color: var(--medium-gray);">
+                <strong>Our Preference:</strong> BP shingles—Canadian-made with cutting-edge technology and the industry's most durable dual sealant strip. Proven to have the lowest blown-off rate in extreme weather conditions.
+            </p>
+        </div>
+    </section>
+    
+    <!-- Why Choose Section -->
+    <section class="why-choose" id="why-choose">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Why Pickering Homeowners Choose C.D. Roofing</h2>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">25+ years of roofing excellence in Durham Region</p>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">⭐</div>
+                    <h3>Quality That Speaks for Itself</h3>
+                    <p>Our installation quality is so exceptional that we have the fewest customer service calls of any roofing company in Durham Region. That's not a claim—it's our track record.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Unmatched Customer Care</h3>
+                    <p>On the rare occasion you need us after installation, you'll experience why our after-care is legendary. Prompt response, clear communication, and a commitment to your complete satisfaction.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning-Fast Turnaround</h3>
+                    <p>Efficient project management means most residential roof replacements are completed in 1-2 days. We respect your time and minimize disruption to your daily life.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">💯</div>
+                    <h3>No-Pressure Estimates</h3>
+                    <p>Honest assessments, transparent pricing, and expert recommendations. We'll never upsell you on services you don't need. Our reputation is built on trust, not tricks.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Certified Excellence</h3>
+                    <p>Gold Standard certified installers with ongoing manufacturer training. Every team member is skilled, experienced, and committed to exceptional workmanship.</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-icon">🇨🇦</div>
+                    <h3>Canadian Pride</h3>
+                    <p>We prioritize Canadian-made products and support local suppliers. When you choose us, you're supporting Canadian businesses and getting products designed for our climate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Referral Program -->
+    <section class="referral-section">
+        <div class="container referral-content">
+            <h2>Get $500 OFF for You AND a Friend!</h2>
+            <p>Know someone who needs roofing work? When you refer a friend and they hire us, you both receive $500 off your projects. It's our way of saying thank you for trusting us and spreading the word.</p>
+            <a href="tel:9054307911" class="cta-button" style="background: var(--primary-yellow); color: var(--black); font-size: 18px;">Ask About Our Referral Program</a>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Pickering Homeowners Say About Us</h2>
+            <p class="section-subtitle">Real reviews from real clients in Durham Region</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"We had our roof done nearly 10 years ago and it's held up like new even with all the extreme weather we've had. Mike and Joe were real artists—they took their time and did an incredible job with the details. You really do get what you pay for and we got our money's worth."</p>
+                    <div class="testimonial-author">Paul Beauvais</div>
+                    <div class="testimonial-location">Whitby, ON</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Called about a leak during a rain storm. They were so helpful and determined the best and most reasonable option. Joe and Mike were knowledgeable and experienced and completed an excellent job that same day. So happy the C.D. team was so responsive and efficient!"</p>
+                    <div class="testimonial-author">Will</div>
+                    <div class="testimonial-location">Durham Region</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Ryan guided me through the process and provided essential suggestions. Joe and Mike were professional, talented and knowledgeable. They were on time every day and did a tremendous job. I highly recommend C.D. Roofing to anyone wishing to have work done on their home."</p>
+                    <div class="testimonial-author">Conroy Jordan</div>
+                    <div class="testimonial-location">Whitby, ON</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Worked through my insurance to replace the roof due to storm damage. The whole process was smooth from selecting shingles through installation and post-work cleanup. Will recommend for anyone looking to get their roof done!"</p>
+                    <div class="testimonial-author">Balamurali Chandran</div>
+                    <div class="testimonial-location">Durham Region</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"C.D. Roofing replaced 2 leaking skylights and the outcome was excellent. The installers did an amazing job carefully removing old skylights and installing new ones without damaging the roof tiles. As a local business owner in Durham, I strongly endorse C.D. Roofing."</p>
+                    <div class="testimonial-author">Malcolm Gurley</div>
+                    <div class="testimonial-location">Durham Region</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"C.D. Roofing came to our rescue. They worked tirelessly to fix another company's install. Our only regret is not knowing about them first. This is a company that stands behind what they do, shows up, and gets the job done right. We would recommend C.D. Roofing 100 percent."</p>
+                    <div class="testimonial-author">Sylvia Manr</div>
+                    <div class="testimonial-location">Durham Region</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Service Areas -->
+    <section class="service-areas">
+        <div class="container">
+            <h2 class="section-title">Serving Pickering & All of Durham Region</h2>
+            <p class="section-subtitle">Professional roofing services throughout the Greater Toronto Area</p>
+            
+            <div class="areas-grid">
+                <div class="area-item"><strong>Pickering</strong></div>
+                <div class="area-item">Whitby</div>
+                <div class="area-item">Oshawa</div>
+                <div class="area-item">Ajax</div>
+                <div class="area-item">Brooklin</div>
+                <div class="area-item">Courtice</div>
+                <div class="area-item">Bowmanville</div>
+                <div class="area-item">Clarington</div>
+                <div class="area-item">Scarborough</div>
+                <div class="area-item">Richmond Hill</div>
+                <div class="area-item">Uxbridge</div>
+                <div class="area-item">Port Perry</div>
+                <div class="area-item">Scugog</div>
+                <div class="area-item">Brock</div>
+                <div class="area-item">Whitchurch-Stouffville</div>
+                <div class="area-item">Peterborough</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact CTA -->
+    <section class="contact-cta" id="contact">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Ready to Protect Your Pickering Home?</h2>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">Get your free, no-obligation roofing estimate today</p>
+            
+            <div class="contact-options">
+                <div class="contact-method">
+                    <div class="contact-icon">📞</div>
+                    <h3>Call Us Now</h3>
+                    <a href="tel:9054307911" itemprop="telephone">(905) 430-7911</a>
+                </div>
+                
+                <div class="contact-method">
+                    <div class="contact-icon">📍</div>
+                    <h3>Visit Our Office</h3>
+                    <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">202 S Blair St</span><br>
+                        <span itemprop="addressLocality">Whitby</span>, <span itemprop="addressRegion">ON</span> <span itemprop="postalCode">L1N 8X9</span>
+                    </p>
+                </div>
+            </div>
+            
+            <div style="margin-top: 50px;">
+                <a href="tel:9054307911" class="cta-button" style="font-size: 20px; padding: 18px 50px;">Get Your Free Estimate</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>C.D. Roofing & Construction Ltd.</h3>
+                <p>Pickering's most trusted roofing company since 1999. Serving residential and commercial properties throughout Durham Region with unmatched quality and care.</p>
+                <p style="margin-top: 20px;">
+                    <strong>Phone:</strong> <a href="tel:9054307911">(905) 430-7911</a><br>
+                    <strong>Hours:</strong> Monday-Saturday, 8am-6pm
+                </p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="#services">Shingle Roof Replacement</a></li>
+                    <li><a href="#services">Flat Roof Installation & Repair</a></li>
+                    <li><a href="#services">Metal Roofing</a></li>
+                    <li><a href="#services">Emergency Roof Repair</a></li>
+                    <li><a href="#services">Skylights</a></li>
+                    <li><a href="#services">Siding & Eavestroughs</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Service Areas</h3>
+                <ul>
+                    <li>Pickering</li>
+                    <li>Whitby</li>
+                    <li>Oshawa</li>
+                    <li>Ajax</li>
+                    <li>Durham Region</li>
+                    <li>Scarborough</li>
+                    <li><a href="#service-areas">View All Areas</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Why Choose Us</h3>
+                <ul>
+                    <li>✓ Fewest callbacks in Durham</li>
+                    <li>✓ Unparalleled after-care</li>
+                    <li>✓ 10-year workmanship warranty</li>
+                    <li>✓ Canadian products preferred</li>
+                    <li>✓ Financing available</li>
+                    <li>✓ $500 referral program</li>
+                    <li>✓ 25+ years experience</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 C.D. Roofing & Construction Ltd. All rights reserved.</p>
+            <p>Licensed and insured roofing contractors serving Pickering, Ontario and Durham Region</p>
+        </div>
+    </footer>
+    
+    <!-- Schema Markup for SEO -->
+    <div class="schema-hidden">
+        <div itemprop="priceRange">$$</div>
+        <div itemprop="telephone">(905) 430-7911</div>
+        <div itemprop="email">info@cdroofingltd.com</div>
+        <link itemprop="url" href="https://cdroofingltd.com/roofers-pickering/">
+        <div itemprop="areaServed" itemscope itemtype="https://schema.org/City">
+            <span itemprop="name">Pickering</span>
+        </div>
+        <div itemprop="areaServed" itemscope itemtype="https://schema.org/AdministrativeArea">
+            <span itemprop="name">Durham Region</span>
+        </div>
+    </div>
+    
+</body>
+</html>
